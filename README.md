@@ -15,6 +15,13 @@ https://akhsim.github.io/learning/Modern-React-with-Redux.html
 ## `components/`
   ![](./code_img/README-2020-10-05-13-53-11.png)
   - A simple comment project with mainly function-based components
-  - Used to learn JSX and introduces the React **props** system
+  - Llearn JSX and introduces the React **props** system
 
+## `seasons/`
+  ![](./code_img/README-2020-10-05-23-06-50.png)
+  - A simple silly project that detects user geolocation latitude and display some text.
+  - Learn **Class-base component** and more importantly, **React state system**.
+  - Learn **Lifecycle methods**.
+  - Learn **ternary expression**.
+  - Learn to add **loading spinner**
 
