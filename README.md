@@ -8,11 +8,11 @@ https://akhsim.github.io/learning/Modern-React-with-Redux.html
 
 # Projects
 
-## jsx
+## `jsx/`
   ![](./code_img/README-2020-10-05-13-53-51.png)
   - A simple project, just to display some Javascript variables
 
-##**** components
+## `components/`
   ![](./code_img/README-2020-10-05-13-53-11.png)
   - A simple comment project with mainly function-based components
   - Used to learn JSX and introduces the React **props** system
