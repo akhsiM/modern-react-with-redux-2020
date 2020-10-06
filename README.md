@@ -21,7 +21,17 @@ https://akhsim.github.io/learning/Modern-React-with-Redux.html
   ![](./code_img/README-2020-10-05-23-06-50.png)
   - A simple silly project that detects user geolocation latitude and display some text.
   - Learn **Class-base component** and more importantly, **React state system**.
+  - Learn **simple state init** without `constructor()`.
   - Learn **Lifecycle methods**.
   - Learn **ternary expression**.
-  - Learn to add **loading spinner**
+  - Learn to add **loading spinner**.
+
+## `pics/`
+  
+  - A simple Image Lookup app
+  - Learn Event Handler and alternate syntax
+  - Learn **controlled v. uncontrolled React Component**.
+  - Learn `event.preventDefault()`.
+  - Learn `this` object.
+
 
