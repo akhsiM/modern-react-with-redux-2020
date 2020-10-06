@@ -33,5 +33,14 @@ https://akhsim.github.io/learning/Modern-React-with-Redux.html
   - Learn **controlled v. uncontrolled React Component**.
   - Learn `event.preventDefault()`.
   - Learn `this` object.
+  - Learn **how to deal with context problem**.
+    - Use Arrow Function that allow **lexical scoping**.
+  - Learn communicating **from Child to Parent component** using `props`.
+  - Learn `axios`.
+    - Learn custom AJAX Client.
+
+
+
+
 
 
