@@ -6,6 +6,8 @@
   - [`pics/`](#pics)
   - [`pics-v2/`](#pics-v2)
   - [`widgets/`](#widgets)
+- [Exercise Snippets](#exercise-snippets)
+  - [`useState` Exercise](#usestate-exercise)
 
 # General
 
@@ -59,11 +61,49 @@ https://akhsim.github.io/learning/Modern-React-with-Redux.html
   - Learn issue with **Order of Operation**.
 
 ## `widgets/`
-
+  - Hooks!
   - Multiple components include
     - An Accordion component
+      - Learn `useState` hook.
+      - Getting the **index value** with `map()`.
     - A Wikipedia API search component
+      - Learn `useEffect` hook.
+      - `dangerouslySetInnerHTML` and XSS Attack
+      - Learn API throttling with `setTimeout()` and how to cancel a timer.
     - A Dropdown item selection component
     - A Google Translate API component
+  - Learn `React.Fragment`.
+  - 
 
 
+# Exercise Snippets
+
+## `useState` Exercise
+![](./code_img/README-2020-10-07-23-37-53.png)
+
+Increment current count by one every time user clicks on the button.
+
+```js
+import React from 'react';
+// Don't modify this line. It is here to make React
+// work correctly in this exercise environment.
+const useState = React.useState;
+
+// don't change the Component name "App"
+export default function App() {
+    
+    const[activeCount, setActiveCount] = useState(0);
+    
+    const onButtonClick = () => {
+        setActiveCount(activeCount+1);
+    };
+    
+    return (
+        <div>
+            <button onClick={onButtonClick}>Click Me!</button>
+            
+            <h1>Current Count: {activeCount}</h1>
+        </div>
+    );
+}
+```
