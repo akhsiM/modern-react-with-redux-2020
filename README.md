@@ -1,3 +1,12 @@
+- [General](#general)
+- [Projects](#projects)
+  - [`jsx/`](#jsx)
+  - [`components/`](#components)
+  - [`seasons/`](#seasons)
+  - [`pics/`](#pics)
+  - [`pics-v2/`](#pics-v2)
+  - [`widgets/`](#widgets)
+
 # General
 
 This repository stores source codes that are written and used as I learn React & Redux from Stephen Grider's course on Udemy.
@@ -27,20 +36,34 @@ https://akhsim.github.io/learning/Modern-React-with-Redux.html
   - Learn to add **loading spinner**.
 
 ## `pics/`
-  
+  ![](./code_img/README-2020-10-07-14-41-34.png)
   - A simple Image Lookup app
   - Learn Event Handler and alternate syntax
   - Learn **controlled v. uncontrolled React Component**.
   - Learn `event.preventDefault()`.
   - Learn `this` object.
-  - Learn **how to deal with context problem**.
-    - Use Arrow Function that allow **lexical scoping**.
-  - Learn communicating **from Child to Parent component** using `props`.
+  - Learn **how to deal with context problem** and how to use Arrow Function that allow **lexical scoping**.
+  - Learn how to communicate **from Child to Parent component** using `props` to generate a callback to pass the information.
   - Learn `axios`.
+    - Learn `async` / `await` function.
     - Learn custom AJAX Client.
+  - Learn how to render list of records.
+    - Learn Javascript array object and map statement.
+    - The purpose of keys in List
 
+## `pics-v2/`
+  ![](./code_img/README-2020-10-07-16-38-51.png)
+  - A continuation of `pics` with images being displayed in a nicely orientated Grid.
+  - Learn CSS Grid system and limitation.
+  - Learn React **Ref** system and use it to dynamically style our component.
+  - Learn issue with **Order of Operation**.
 
+## `widgets/`
 
-
+  - Multiple components include
+    - An Accordion component
+    - A Wikipedia API search component
+    - A Dropdown item selection component
+    - A Google Translate API component
 
 
