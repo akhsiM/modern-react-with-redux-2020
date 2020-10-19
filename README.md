@@ -67,10 +67,14 @@ https://akhsim.github.io/learning/Modern-React-with-Redux.html
       - Learn `useState` hook.
       - Getting the **index value** with `map()`.
     - A Wikipedia API search component
-      - Learn `useEffect` hook.
+      - Learn `useEffect` hook and its cleanup function
       - `dangerouslySetInnerHTML` and XSS Attack
       - Learn API throttling with `setTimeout()` and how to cancel a timer.
+      - Learn React dependency error in `useEffect()` and solving it using **debounced** state.
     - A Dropdown item selection component
+      - Event Bubbling
+      - Order of Event Handler invocations
+      - `useRef` hook
     - A Google Translate API component
   - Learn `React.Fragment`.
   - 
