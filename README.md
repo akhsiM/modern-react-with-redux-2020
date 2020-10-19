@@ -8,6 +8,8 @@
   - [`widgets/`](#widgets)
 - [Exercise Snippets](#exercise-snippets)
   - [`useState` Exercise](#usestate-exercise)
+  - [`useState` and `useEffect` exercise using axios to fetch data](#usestate-and-useeffect-exercise-using-axios-to-fetch-data)
+- [Progress](#progress)
 
 # General
 
@@ -63,21 +65,31 @@ https://akhsim.github.io/learning/Modern-React-with-Redux.html
 ## `widgets/`
   - Hooks!
   - Multiple components include
-    - An Accordion component
+    - `Accordion` component
       - Learn `useState` hook.
       - Getting the **index value** with `map()`.
-    - A Wikipedia API search component
+    - A Wikipedia API `Search` component
       - Learn `useEffect` hook and its cleanup function
       - `dangerouslySetInnerHTML` and XSS Attack
       - Learn API throttling with `setTimeout()` and how to cancel a timer.
       - Learn React dependency error in `useEffect()` and solving it using **debounced** state.
-    - A Dropdown item selection component
+    - `Dropdown` item selection component
       - Event Bubbling
       - Order of Event Handler invocations
       - `useRef` hook
-    - A Google Translate API component
-  - Learn `React.Fragment`.
-  - 
+    - `Translate` component
+      - Uses Google Translate API
+    - `Route` component
+      - URL Routings
+    - A Navigation bar component
+      - Build Navigation **from sratch** using vanilla React to learn basic component routing.
+      - Handle Navigation the React way by
+        - Using `Route`, `Link`, and `Header` components
+        - Manipulating URL using `window.history.pushState()`
+        - Create and dispatch a custom `popstate` event using `dispatchEvent()`
+        - Create an `EventListener` to handle the custom `popstate` event
+        - Handling expected `Ctrl/Cmd + Click` behaviour by keeping browser normal behaviour
+
 
 
 # Exercise Snippets
@@ -111,3 +123,80 @@ export default function App() {
     );
 }
 ```
+
+## `useState` and `useEffect` exercise using axios to fetch data
+
+```js
+import React from 'react';
+import {axios} from './axios';
+const { useState, useEffect } = React;
+
+const URL = 'https://jsonplaceholder.typicode.com/users';
+
+const App = () => {
+    const [users, setUsers] = useState([]);
+    
+    useEffect(() => {
+
+        const getUsers = async () => {
+            const { data } = await axios.get(URL);
+            setUsers(data);
+        };
+        
+        getUsers();
+    }, []);
+     
+    const renderedUsers = users.map((user) => {
+        return <li key={user.id}>{user.name}</li>;
+    });
+    
+    return (
+        <ul>
+            {renderedUsers}
+        </ul>
+    );
+}
+
+export default App;
+```
+![](./code_img/README-2020-10-19-18-13-27.png)
+
+# Progress
+
+- [X] Session 1
+- [X] Session 2
+- [X] Session 3
+- [X] Session 4
+- [X] Session 5
+- [X] Session 6
+- [X] Session 7
+- [X] Session 8
+- [X] Session 9
+- [X] Session 10
+- [ ] Session 11
+- [X] Session 12
+- [X] Session 13
+- [ ] Session 14
+- [ ] Session 15
+- [ ] Session 16
+- [ ] Session 17
+- [ ] Session 18
+- [ ] Session 19
+- [ ] Session 20
+- [ ] Session 21
+- [ ] Session 22
+- [ ] Session 23
+- [ ] Session 24
+- [ ] Session 25
+- [ ] Session 26
+- [ ] Session 27
+- [ ] Session 28
+- [ ] Session 29
+- [ ] Session 30
+- [ ] Session 31
+- [ ] Session 32
+- [ ] Session 33
+- [ ] Session 34
+- [ ] Session 35
+- [ ] Session 36
+- [ ] Session 37

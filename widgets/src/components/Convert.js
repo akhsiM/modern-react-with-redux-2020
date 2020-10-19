@@ -21,7 +21,7 @@ const Convert = ({ language, text }) => {
           },
         }
       );
-      setTranslated(data.data.translations[0].translatedText)
+      setTranslated(data.data.translations[0].translatedText);
     };
 
     if (debouncedText) {
