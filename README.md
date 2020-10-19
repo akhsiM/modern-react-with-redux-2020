@@ -125,6 +125,9 @@ export default function App() {
 ```
 
 ## `useState` and `useEffect` exercise using axios to fetch data
+![](./code_img/README-2020-10-19-18-13-27.png)
+
+Fetch a list of users by calling a remote API and display them using a combination of `useEffect()` and `useState`
 
 ```js
 import React from 'react';
@@ -159,7 +162,7 @@ const App = () => {
 
 export default App;
 ```
-![](./code_img/README-2020-10-19-18-13-27.png)
+
 
 # Progress
 
