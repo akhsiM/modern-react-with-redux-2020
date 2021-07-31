@@ -6,6 +6,9 @@
   - [`pics/`](#pics)
   - [`pics-v2/`](#pics-v2)
   - [`widgets/`](#widgets)
+  - [`videos/`](#videos)
+  - [`videos-hook/`](#videos-hook)
+  - [`songs/`](#songs)
 - [Exercise Snippets](#exercise-snippets)
   - [`useState` Exercise](#usestate-exercise)
   - [`useState` and `useEffect` exercise using axios to fetch data](#usestate-and-useeffect-exercise-using-axios-to-fetch-data)
@@ -91,6 +94,20 @@ https://akhsim.github.io/learning/Modern-React-with-Redux.html
         - Handling expected `Ctrl/Cmd + Click` behaviour by keeping browser normal behaviour
 
 
+## `videos/`
+  - Simple Youtube videos search app.
+
+## `videos-hook/`
+  - Refactor of `videos` but now with Hooks
+
+## `songs/`
+  - Simple App to introduce Redux into the world of React
+  - `React-Redux`
+  - The Redux app project structure
+  - Named vs Default Exports
+  - Introduction of `Provider` and `Connect` special components
+  - The general structure of a React component with a react-redux `connect` function, which will be repeated a million times.
+  - Calling action creators within a component, via the `connect` function
 
 # Exercise Snippets
 
@@ -176,13 +193,13 @@ export default App;
 - [X] Session 8
 - [X] Session 9
 - [X] Session 10
-- [ ] Session 11
+- [X] Session 11
 - [X] Session 12
 - [X] Session 13
-- [ ] Session 14
-- [ ] Session 15
-- [ ] Session 16
-- [ ] Session 17
+- [X] Session 14
+- [X] Session 15
+- [X] Session 16
+- [X] Session 17
 - [ ] Session 18
 - [ ] Session 19
 - [ ] Session 20
