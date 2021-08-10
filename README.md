@@ -9,6 +9,8 @@
   - [`videos/`](#videos)
   - [`videos-hook/`](#videos-hook)
   - [`songs/`](#songs)
+  - [`blog/`](#blog)
+  - [`streams/`:](#streams)
 - [Exercise Snippets](#exercise-snippets)
   - [`useState` Exercise](#usestate-exercise)
   - [`useState` and `useEffect` exercise using axios to fetch data](#usestate-and-useeffect-exercise-using-axios-to-fetch-data)
@@ -109,6 +111,35 @@ https://akhsim.github.io/learning/Modern-React-with-Redux.html
   - The general structure of a React component with a react-redux `connect` function, which will be repeated a million times.
   - Calling action creators within a component, via the `connect` function
 
+## `blog/`
+  - Simple App that shows a list of blog posts and users from https://jsonplaceholder.typicode.com/
+  - Why simple? Because our main goals are:
+    - Crystal clear understanding the purpose of reducers
+    - Total understanding making API requests with Redux
+      - Get familiar with the general steps of how external data is fetched within a Redux application
+    - Start to understanding the purpose of `redux-thunk`, a middleware within Redux.
+  - How to **not** fetch data using an action creator and more on asynchronous action creators
+  - **Rules of Reducers** and equality/ comparison of arrays/objects in JS
+  - Switch Statements inside reducer
+  - Dispatching the correct data values in action creator
+  - `ownProps`
+  - Solving the problem of ovefetching issue 
+    - Using memoization
+    - By using an action creator with another action creator within
+  - `_.chain()`
+
+## `streams/`:
+  - Two applications within a project directory
+  - Navigation in React using React Router
+    - **IMPORTANT**: How paths get matched in React Routers
+    - How to *not* nagivate in React using the anchor tag.
+    - How to **properly** navigate in React using the `Link` component.
+  - Different types of React Router and how they work (`BrowserRouter`, `HashRouter`, `MemoryRouter`)
+  - Components that are always visible
+  - How to implement Google OAuth, with and without Redux
+  - Fixed Action Types *(kinda like environment variables)*
+  - Redux Dev Tools
+    - 
 # Exercise Snippets
 
 ## `useState` Exercise
@@ -127,7 +158,6 @@ export default function App() {
     
     const[activeCount, setActiveCount] = useState(0);
     
-    const onButtonClick = () => {
         setActiveCount(activeCount+1);
     };
     
@@ -197,13 +227,13 @@ export default App;
 - [X] Session 12
 - [X] Session 13
 - [X] Session 14
-- [X] Session 15
+- [ ] Session 15
 - [X] Session 16
 - [X] Session 17
-- [ ] Session 18
-- [ ] Session 19
-- [ ] Session 20
-- [ ] Session 21
+- [X] Session 18
+- [X] Session 19
+- [X] Session 20
+- [X] Session 21
 - [ ] Session 22
 - [ ] Session 23
 - [ ] Session 24
