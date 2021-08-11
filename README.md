@@ -139,7 +139,10 @@ https://akhsim.github.io/learning/Modern-React-with-Redux.html
   - How to implement Google OAuth, with and without Redux
   - Fixed Action Types *(kinda like environment variables)*
   - Redux Dev Tools
-    - 
+  - Redux Form
+  
+
+
 # Exercise Snippets
 
 ## `useState` Exercise
@@ -150,7 +153,7 @@ Increment current count by one every time user clicks on the button.
 ```js
 import React from 'react';
 // Don't modify this line. It is here to make React
-// work correctly in this exercise environment.
+// work correctly in this exercise environment.****
 const useState = React.useState;
 
 // don't change the Component name "App"
@@ -234,8 +237,8 @@ export default App;
 - [X] Session 19
 - [X] Session 20
 - [X] Session 21
-- [ ] Session 22
-- [ ] Session 23
+- [X] Session 22
+- [X] Session 23
 - [ ] Session 24
 - [ ] Session 25
 - [ ] Session 26
