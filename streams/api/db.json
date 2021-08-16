@@ -1,3 +1,32 @@
 {
-    "streams": []
+  "streams": [
+    {
+      "title": "dsad",
+      "description": "dasd",
+      "id": 1
+    },
+    {
+      "title": "dasda",
+      "description": "dsadas",
+      "id": 2
+    },
+    {
+      "title": "Hello world",
+      "description": "First stream after userId ",
+      "userId": "106006112261978764697",
+      "id": 3
+    },
+    {
+      "title": "Testing",
+      "description": "Test Behaviour",
+      "userId": "106006112261978764697",
+      "id": 4
+    },
+    {
+      "title": "programmatic navigation",
+      "description": "Using programmatic navigation",
+      "userId": "106006112261978764697",
+      "id": 5
+    }
+  ]
 }

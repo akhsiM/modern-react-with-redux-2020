@@ -127,7 +127,7 @@ https://akhsim.github.io/learning/Modern-React-with-Redux.html
     - Using memoization
     - By using an action creator with another action creator within
   - `_.chain()`
-
+  
 ## `streams/`:
   - Two applications within a project directory
   - Navigation in React using React Router
@@ -140,7 +140,19 @@ https://akhsim.github.io/learning/Modern-React-with-Redux.html
   - Fixed Action Types *(kinda like environment variables)*
   - Redux Dev Tools
   - Redux Form
-  
+    - How to validate form submission
+    - Dealing with error messages and validation
+  - REST-based server component
+  - How to combine Redux Form and Redux `connect`
+  - Object-based reducer using key-interpolation syntax, and how it differs from array-based reducer.
+  - Lodash `mapKeys()` function
+  - Different types of Navigation:
+    - Intentional Navigation
+    - Programmatic Navigation
+  - Programmatic Navigation using custom `history` object and plain `Router`
+  - URL-based selection
+  - 
+
 
 
 # Exercise Snippets
@@ -239,7 +251,7 @@ export default App;
 - [X] Session 21
 - [X] Session 22
 - [X] Session 23
-- [ ] Session 24
+- [X] Session 24
 - [ ] Session 25
 - [ ] Session 26
 - [ ] Session 27
