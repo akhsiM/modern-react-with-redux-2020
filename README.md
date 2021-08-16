@@ -142,6 +142,9 @@ https://akhsim.github.io/learning/Modern-React-with-Redux.html
   - Redux Form
     - How to validate form submission
     - Dealing with error messages and validation
+    - Dealing with initial values
+    - Avoid changes to certain properties (using lodash)
+    - PUT vs PATCH request
   - REST-based server component
   - How to combine Redux Form and Redux `connect`
   - Object-based reducer using key-interpolation syntax, and how it differs from array-based reducer.
@@ -150,7 +153,7 @@ https://akhsim.github.io/learning/Modern-React-with-Redux.html
     - Intentional Navigation
     - Programmatic Navigation
   - Programmatic Navigation using custom `history` object and plain `Router`
-  - URL-based selection
+  - URL-based selection and Component Isolation
   - 
 
 
@@ -252,7 +255,7 @@ export default App;
 - [X] Session 22
 - [X] Session 23
 - [X] Session 24
-- [ ] Session 25
+- [X] Session 25
 - [ ] Session 26
 - [ ] Session 27
 - [ ] Session 28
