@@ -154,7 +154,10 @@ https://akhsim.github.io/learning/Modern-React-with-Redux.html
     - Programmatic Navigation
   - Programmatic Navigation using custom `history` object and plain `Router`
   - URL-based selection and Component Isolation
-  - 
+  - React Portal
+  - React Fragments
+  - The `Switch` component for non-greedy match
+  - Setting up RTMP Server
 
 
 
@@ -256,7 +259,7 @@ export default App;
 - [X] Session 23
 - [X] Session 24
 - [X] Session 25
-- [ ] Session 26
+- [X] Session 26
 - [ ] Session 27
 - [ ] Session 28
 - [ ] Session 29
