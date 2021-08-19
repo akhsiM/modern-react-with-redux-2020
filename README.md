@@ -12,6 +12,7 @@
   - [`blog/`](#blog)
   - [`streams/`:](#streams)
   - [`translate/`](#translate)
+  - [`translate-refactored/`](#translate-refactored)
 - [Exercise Snippets](#exercise-snippets)
   - [`useState` Exercise](#usestate-exercise)
   - [`useState` and `useEffect` exercise using axios to fetch data](#usestate-and-useeffect-exercise-using-axios-to-fetch-data)
@@ -164,6 +165,10 @@ https://akhsim.github.io/learning/Modern-React-with-Redux.html
   - Simple application to learn React **Context** system
   - Big gotcha about the Context `Provider` component.
   - The `Consumer` component, and why use it instead of `this.context`.
+
+## `translate-refactored/`
+  - Refactored version of `translate` to understand Context and how one use it to replace Redux.
+  - 
 # Exercise Snippets
 
 ## `useState` Exercise
