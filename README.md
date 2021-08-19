@@ -11,6 +11,7 @@
   - [`songs/`](#songs)
   - [`blog/`](#blog)
   - [`streams/`:](#streams)
+  - [`translate/`](#translate)
 - [Exercise Snippets](#exercise-snippets)
   - [`useState` Exercise](#usestate-exercise)
   - [`useState` and `useEffect` exercise using axios to fetch data](#usestate-and-useeffect-exercise-using-axios-to-fetch-data)
@@ -157,10 +158,12 @@ https://akhsim.github.io/learning/Modern-React-with-Redux.html
   - React Portal
   - React Fragments
   - The `Switch` component for non-greedy match
-  - Setting up RTMP Server
+  - Setting up RTMP Server and OBS
 
-
-
+## `translate/`
+  - Simple application to learn React **Context** system
+  - Big gotcha about the Context `Provider` component.
+  - The `Consumer` component, and why use it instead of `this.context`.
 # Exercise Snippets
 
 ## `useState` Exercise
@@ -260,14 +263,8 @@ export default App;
 - [X] Session 24
 - [X] Session 25
 - [X] Session 26
-- [ ] Session 27
+- [X] Session 27
 - [ ] Session 28
 - [ ] Session 29
 - [ ] Session 30
 - [ ] Session 31
-- [ ] Session 32
-- [ ] Session 33
-- [ ] Session 34
-- [ ] Session 35
-- [ ] Session 36
-- [ ] Session 37
